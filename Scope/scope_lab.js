@@ -30,4 +30,25 @@ function show(){
     
  //   console.log(functionVar); // Throws ReferenceError
  //   console.log(functionLet); // Throws ReferenceError
-    console.log(functionConst); // Throws ReferenceError
+ //   console.log(functionConst); // Throws ReferenceError
+
+{
+// Block scope
+    var blockVar1 = "I'm a block-scoped var";
+    let blockLet1 = "I'm a block-scoped let";
+    const blockConst1 = "I'm a block-scoped const";
+    blockVar1 = "I'm a modified block-scoped var";
+    blockLet1 = "I'm a modified block-scoped let";
+    // blockConst1 = "I'm a modified block-scoped const";
+}
+    console.log(blockVar1);
+    //console.log(blockLet1);
+    //console.log(blockConst1);
+
+    blockVar1 = "I'm a re-modified block-scoped var";
+    blockLet1 = "I'm a re-modified block-scoped let";
+    blockConst1 = "I'm a re-modified block-scoped const";
+
+    console.log(blockVar1);
+    console.log(blockLet1);
+    console.log(blockConst1);
