@@ -4,6 +4,12 @@ Scope:
 - Learn the right way to use them: Determine when to use 'let' for changing data, 'const' for constants, and why using 'var' might not be the best choice anymore. It's important to selecting the right variable for the code.
 - Make your code stronger: Through a deep understanding of 'var,' 'let,' and 'const,' you'll write more resilient code less prone to breakage. Avoid bugs and create code that is not only comprehensible to you but also to others, ensuring it operates smoothly.
 
+ControlFlow:
+- Decision-making constructs: Learn about if statements for single-condition execution, if else statements to execute different code blocks based on conditions, and nested if else statements to handle multiple conditions hierarchically.
+- Control flow and efficiency: Explore logical flow control to manage program flow based on conditions and code optimization to enhance readability and efficiency.
+- Handling multiple scenarios: Understand how to manage complexity to deal with multiple conditions effectively and switch statements to streamline code for multiple scenarios.
+- Real-world application and problem-solving: Learn about applied problem solving to utilize conditional statements in practical scenarios and enhanced logic building to strengthen problem-solving skills through logic constructs.
+
 BookSystem:
 - Implements a book management interface: Create an interface to collect book details including name, author, description, and page count using HTML form elements.
 - Stores and manages book data: Use JavaScript arrays and objects to store and manage book information entered by users, allowing for functionalities like adding, editing, and deleting book entries.
