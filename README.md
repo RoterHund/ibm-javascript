@@ -10,6 +10,18 @@ ControlFlow:
 - Handling multiple scenarios: Understand how to manage complexity to deal with multiple conditions effectively and switch statements to streamline code for multiple scenarios.
 - Real-world application and problem-solving: Learn about applied problem solving to utilize conditional statements in practical scenarios and enhanced logic building to strengthen problem-solving skills through logic constructs.
 
+CalculateArea:
+- Understanding HTML structure: Recognize the structure of an HTML file and comprehend how to create an interactive user interface by implementing HTML elements like input fields and buttons.
+- JavaScript variable declaration: Grasp the concept of declaring variables in JavaScript and understand their role in storing data retrieved from user input.
+- Retrieving user input with JavaScript: Learn how to use JavaScript to fetch and process user-provided data entered into input fields within an HTML document.
+- Function implementation and execution: Comprehend the creation and execution of JavaScript functions and their role in executing specific tasks, such as performing calculations and dynamically updating HTML content based on user actions.
+
+FollowersCount:
+- Variables and incrementation: Learn how to use variables in JavaScript to store and modify data, in this case, to simulate increasing follower counts.
+- Updating web content: Understand how JavaScript interacts with HTML elements to dynamically update content on a webpage, like displaying follower counts.
+- Conditional statements: Explore how to create conditions in code using if-else statements to trigger specific actions based on certain criteria, such as displaying congratulatory messages at follower milestones.
+- Function usage: Learn how functions in JavaScript are defined and called to perform specific tasks, enabling the control flow of the program and organizing code for better management and reusability.
+
 BookSystem:
 - Implements a book management interface: Create an interface to collect book details including name, author, description, and page count using HTML form elements.
 - Stores and manages book data: Use JavaScript arrays and objects to store and manage book information entered by users, allowing for functionalities like adding, editing, and deleting book entries.
