@@ -26,6 +26,15 @@ function endTest() {
     var userTypedText = document.getElementById("userInput").value;
 
     // Split the text using regex to count words correctly
+    // The split(/\s+/) method is used to split the userTypedText string into an array of words based on whitespace characters. 
+    // The regular expression /\s+/ matches one or more whitespace characters, including spaces, tabs, and newline characters.
+    // Filtering out empty words: The filter method is then called on the array of words. 
+    // It iterates through each word in the array and applies the provided function to it. 
+    // In this case, the function checks if the word is not an empty string (word !== ""). 
+    // If a word is not empty, it is included in the resulting array.
+    // Counting the number of words: Finally, the length property is used to determine the number of words remaining in the filtered array. 
+    // This value represents the total number of words typed by the user, excluding any empty words.
+    
     var typedWords = userTypedText.split(/\s+/).filter(function (word) {
         return word !== "";
     }).length;
