@@ -15,3 +15,9 @@ DebugCode:
 - Operation execution: Multiplies the two input values when the "Perform Operation" button is clicked.
 - Error handling: Checks if the entered values are valid numbers before performing the multiplication operation. If the values are not valid numbers, it displays an error message instead of the result.
 - Debugging: Includes a debugger statement within the multiply() function to pause execution and allow developers to inspect the code, variables, and execution flow using browser Developer Tools.
+
+ToDoList:
+- Task management implementation: Learn the process of creating a functional task management interface by implementing features like adding tasks, displaying a task list dynamically, toggling task completion status, and clearing completed tasks using HTML, CSS, and JavaScript.
+- DOM manipulation proficiency: Gain proficiency in manipulating the Document Object Model (DOM) using JavaScript to dynamically create and modify elements within the webpage, enabling real-time updates and interactions within the To-Do List application.
+- Event handling and user interaction: Explore event-driven programming by implementing event listeners for user actions such as adding tasks, toggling completion, and filtering tasks based on search input, fostering a responsive and interactive user experience.
+- Understanding front-end principles: Comprehend fundamental front-end development principles, including UI design considerations, CSS styling for layout and aesthetics, and integrating JavaScript functionalities to create a cohesive and user-friendly To-Do List application interface.
