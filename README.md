@@ -21,3 +21,9 @@ ToDoList:
 - DOM manipulation proficiency: Gain proficiency in manipulating the Document Object Model (DOM) using JavaScript to dynamically create and modify elements within the webpage, enabling real-time updates and interactions within the To-Do List application.
 - Event handling and user interaction: Explore event-driven programming by implementing event listeners for user actions such as adding tasks, toggling completion, and filtering tasks based on search input, fostering a responsive and interactive user experience.
 - Understanding front-end principles: Comprehend fundamental front-end development principles, including UI design considerations, CSS styling for layout and aesthetics, and integrating JavaScript functionalities to create a cohesive and user-friendly To-Do List application interface.
+
+ColorfulMemoryGame:
+- DOM manipulation: Understand and implement dynamic HTML element creation and modification using JavaScript to generate a playable memory matching game grid.
+- Event handling: Learn to manage and respond to user interactions by handling click events on game cards, revealing colors, and implementing logic for matching pairs.
+- Game logic implementation: Develop fundamental game logic by incorporating mechanisms to match pairs of colors, track scores, reset the game, and manage game time through a simple timer.
+- Fundamentals of web game development: Gain insights into core concepts essential for creating interactive web-based games, including array manipulation for shuffling elements, styling elements with CSS, and integrating JavaScript functionalities for game interactivity and dynamics.
