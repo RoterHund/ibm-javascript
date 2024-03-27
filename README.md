@@ -1,3 +1,9 @@
+Scope:
+- Understand where variables work: Learn how 'var,' 'let,' and 'const' variables operate in different parts of your code, where you can use them, and potential issues they might cause.
+- Know how variables behave: Discover the distinct behaviors of 'var,' 'let,' and 'const.' Understand how they can change and when they remain constant. Learn why declaring variables with 'var,' 'let,' and 'const' is essential for maintaining safe and reliable data.
+- Learn the right way to use them: Determine when to use 'let' for changing data, 'const' for constants, and why using 'var' might not be the best choice anymore. It's important to selecting the right variable for the code.
+- Make your code stronger: Through a deep understanding of 'var,' 'let,' and 'const,' you'll write more resilient code less prone to breakage. Avoid bugs and create code that is not only comprehensible to you but also to others, ensuring it operates smoothly.
+
 BookSystem:
 - Implements a book management interface: Create an interface to collect book details including name, author, description, and page count using HTML form elements.
 - Stores and manages book data: Use JavaScript arrays and objects to store and manage book information entered by users, allowing for functionalities like adding, editing, and deleting book entries.
