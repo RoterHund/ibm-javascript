@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set character encoding -->
+  <meta charset="UTF-8">
+  <!-- Set the title of the webpage -->
+  <title>Health Analysis Data</title>
+  <!-- Link to an external stylesheet -->
+  <link rel="stylesheet" href="./health_analysis.css">
+</head>
+<body>
+  <!-- Navigation section -->
+  <nav>
+    <!-- Header title -->
+    <h1>Health Analysis Census</h1>
+    <!-- Unordered list for navigation links -->
+    <ul>
+      <!-- Home link -->
+      <li><a href="./index.html" id="home">Home </a></li>
+      <!-- Contact Us link -->
+      <li><a href="./health_contact.html" id="contact">Contact Us </a></li>
+      <!-- Input field for health condition search -->
+      <li><input type="text" id="conditionInput" placeholder="Enter a health condition"> </li>
+      <!-- Button to initiate search -->
+      <li><button id='btnSearch'>Search</button></li>
+    </ul>
+  </nav>
+  <!-- Container for the main content -->
+  <div class="container">
+    <!-- Form for healthcare data analysis -->
+    <div class="analysisForm">
+      <!-- Title for the form -->
+      <h1>Healthcare Data Analysis</h1>
+      <!-- Input fields for patient information -->
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+      </div>
+      <div>
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">
+      </div>
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+      </div>
+      <div>
+        <label for="condition">Condition:</label>
+        <!-- Dropdown menu for selecting medical condition -->
+        <select id="condition">
+          <option value="">Select condition</option>
+          <option value="Diabetes">Diabetes</option>
+          <option value="Thyroid">Thyroid</option>
+          <option value="High Blood Pressure">High Blood Pressure</option>
+        </select>
+      </div>
+      <!-- Button to add patient data -->
+      <button id="addPatient">Add Patient</button>
+      <!-- Header for analysis report -->
+      <h2>Analysis Report</h2>
+      <!-- Div to display analysis report -->
+      <div id="report"></div>
+    </div>
+    <!-- Div for displaying search results -->
+    <div class="searchCondition">
+      <div id="result"></div>
+    </div>
+  </div>
+  <!-- Link to external JavaScript file -->
+  <script src="./health_analysis.js"></script>
+</body>
+</html>
+```
