@@ -77,7 +77,16 @@ healthAnalysis:
 - Dynamic report generation: You will dynamically generate and display reports within a webpage. This action involves updating the HTML content based on the processed data, presenting statistical information in an organized and understandable manner, and manipulating the DOM to reflect changes instantly.
 - User interaction and event handling: Practice event-driven programming and user interaction. You will learn how to handle user-triggered events (button clicks and navigation links) and respond with appropriate search queries.
 
+FINAL PROJECT
 travelRecommendation:
+This website includes:
+- A navigation bar with links to the home page, "About Us" and "Contact Us" pages
+- A search bar allowing users to input destinations or keywords to search for recommendations
+- A content section that showcases an enticing background image, social media links, and a headline emphasizing exploration and destination discovery
+- A brief description promoting cultural exploration
+- A "Book Now" button
+
+Demonstrates
 - Enhanced user navigation: Implement an intuitive navigation bar with clear links to the Home, About Us, and Contact Us sections, ensuring a user friendly website.
 - Search functionality integration: Develop a search feature allowing users to input destinations or keywords, enabling the 'Search' and 'Clear' buttons to retrieve and reset dynamically displayed recommendations promptly.
 - Visual appeal and brand representation: Create an aesthetically pleasing landing page with visually engaging elements, including a logo, social media icons, and captivating visuals, to enhance brand recognition and user engagement.
