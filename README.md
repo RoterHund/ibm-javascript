@@ -58,9 +58,15 @@ ColorfulMemoryGame:
 - Game logic implementation: Develop fundamental game logic by incorporating mechanisms to match pairs of colors, track scores, reset the game, and manage game time through a simple timer.
 - Fundamentals of web game development: Gain insights into core concepts essential for creating interactive web-based games, including array manipulation for shuffling elements, styling elements with CSS, and integrating JavaScript functionalities for game interactivity and dynamics.
 
-healthArticle
+healthArticle:
 - XHR integration proficiency: Acquire the skill to integrate XMLHttpRequest (XHR) into web applications for fetching external JSON data, facilitating dynamic content retrieval.
 - Dynamic HTML construction: Develop the ability to dynamically construct the HTML elements using JavaScript, enabling the creation of structured content and layout modification quickly.
 - JSON data manipulation: Learn to handle and parse JSON data retrieved from external sources, facilitating its structured presentation within a webpage.
 - List generation competence: Explore the creation of unordered lists to organize and display data, mastering techniques for efficient information organization on webpages.
 - Iterative content rendering: Understand and implement iterative content rendering, allowing for the dynamic display of multiple articles fetched from JSON data onto a webpage, enhancing the user experience through comprehensive content presentation.
+
+weatherReport:
+- User-friendly weather retrieval: Enable user input for city names, facilitating the retrieval of real-time weather information via an intuitive web interface.
+- API integration for weather data: Utilize the OpenWeatherMap API to fetch precise weather data based on user-entered cities, dynamically displaying temperature and weather descriptions on the webpage.
+- HTML form submission handling and JS event implementation: Manage form submissions within HTML and implement event listeners in JavaScript, ensuring smooth user interactions and data retrieval processes.
+- Demonstration of asynchronous requests and dynamic DOM updates: Showcase the practical application of asynchronous requests using fetch(), parsing JSON responses, and dynamically updating the DOM to display fetched weather details seamlessly, eliminating the need for page refreshes.
